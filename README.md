@@ -3,7 +3,7 @@ How to share data with a statistician
 
 This is a guide for anyone who needs to share data with a statistician or data scientist. The target audiences I have in mind are:
 
-* Collaborators who need statisticians or data scientists to analyze data for them
+* Collaborators who need statisticians or data scientists to analyse data for them
 * Students or postdocs in various disciplines looking for consulting advice
 * Junior statistics students whose job it is to collate/clean/wrangle data sets
 
@@ -15,7 +15,7 @@ when they arrive at the Leek group. Based on my conversations with other statist
 My strong feeling is that statisticians should be able to handle the data in whatever state they arrive. It is important
 to see the raw data, understand the steps in the processing pipeline, and be able to incorporate hidden sources of
 variability in one's data analysis. On the other hand, for many data types, the processing steps are well documented
-and standardized. So the work of converting the data from raw form to directly analyzable form can be performed 
+and standardized. So the work of converting the data from raw form to directly analysable form can be performed 
 before calling on a statistician. This can dramatically speed the turnaround time, since the statistician doesn't
 have to work through all the pre-processing steps first. 
 
@@ -132,7 +132,7 @@ In general, try to avoid coding categorical or ordinal variables as numbers. Whe
 data, it should be "male" or "female". The ordinal values in the data set should be "poor", "fair", and "good" not 1, 2 ,3.
 This will avoid potential mixups about which direction effects go and will help identify coding errors. 
 
-Always encode every piece of information about your observations using text. For example, if you are storing data in Excel and use a form of colored text or cell background formatting to indicate information about an observation ("red variable entries were observed in experiment 1.") then this information will not be exported (and will be lost!) when the data is exported as raw text.  Every piece of data should be encoded as actual text that can be exported.  
+Always encode every piece of information about your observations using text. For example, if you are storing data in Excel and use a form of coloured text or cell background formatting to indicate information about an observation ("red variable entries were observed in experiment 1.") then this information will not be exported (and will be lost!) when the data is exported as raw text.  Every piece of data should be encoded as actual text that can be exported.  
 
 ### The instruction list/script
 
